@@ -1,0 +1,28 @@
+header {
+            background-color: rgb(255, 245, 206); 
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+}
+
+#page1-section, #page2-section, #page3-section { background-color: rgb(70,193, 244);
+
+}
+
+aside {background-color: rgb(240, 172, 77);
+
+}
+
+footer {background-color: rgb(255, 245, 206);}
+
+nav ul {list-style: none;
+}
+
+nav a {text-decoration: none;}
+
+#page1-section, #page2-section, #page3-section, aside {padding: 2rem;}
+article {padding: 1rem;}
+
+nav ul a{padding: 1rem;}

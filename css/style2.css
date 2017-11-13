@@ -1,0 +1,25 @@
+nav a, nav ul, nav li {float: left;}
+#page1-section {clear:both;
+                width: 60%;
+                box-sizing: border-box;
+}
+#page2-section {clear:both;
+                width: 85%;}
+
+#page3-section {clear:both;
+                    width: 75%;}                
+
+                
+aside {width: 40%;
+       box-sizing: border-box;
+}
+
+#page1-section, aside{float: left;}
+
+footer {clear:both;}
+
+header {height: 200px;}
+
+
+
+

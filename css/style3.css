@@ -1,0 +1,17 @@
+img {max-width: 50%;}
+@media(min-width: 450px) {
+
+    nav, nav ul, #main-section {display: flex;}
+    nav {align-items: center;}
+    img {max-width: 75%;}
+
+
+}
+
+
+
+
+nav li a {color: black;}
+nav li a:hover{background-color: black;
+    color: lightblue;
+    border-radius: 1rem;}
