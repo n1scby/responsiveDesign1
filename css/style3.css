@@ -1,12 +1,21 @@
-img {max-width: 50%;}
+#page2-section img, #page3-section img {max-width: 50%;}
+header img {max-width: 100%;}
+
+
 @media(min-width: 450px) {
 
-    nav, nav ul, #main-section {display: flex;}
-    nav {align-items: center;}
-    img {max-width: 75%;}
+    #main-section {display: flex;}
+    #page2-section img {max-width: 75%;}
+    nav, nav ul {display: flex;
+        align-items: center;
+       padding: 0;}
 
+    nav > a{flex: 1;}
+    nav ul {flex: 4;}
+    nav {justify-content: space-between;}
 
 }
+
 
 
 
